@@ -57,5 +57,6 @@
     "phpstan": [
       "@php vendor/phpstan/phpstan-shim/phpstan.phar analyse -c phpstan-src.neon src --level 2 --no-progress"
     ]
-  }
+  },
+  "minimum-stability": "dev"
 }
